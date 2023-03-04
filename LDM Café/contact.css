@@ -1,0 +1,158 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(165, 165, 165);  
+    background-size: 100%;  
+    font-family: 'Open Sans', sans-serif;  
+    background-image: url(./images/cafe5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+  }
+  
+  header {
+    background-color: rgb(66, 66, 66); 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0%;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end; 
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 0;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  
+  
+  h2{
+  color: white;
+  position: absolute;
+  top: 160px; 
+  left: 500px; 
+  font-size:30px;
+  border-bottom: 1px solid white;
+}
+.Nom{
+    color: white;
+    position: absolute;
+    top: 220px; 
+    left: 500px; 
+    font-size:20px;
+    border-radius: 10px;
+}
+input[name='NomC'] {
+    display: block;
+    margin-top: 320px;
+    margin-left:500px;
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .Couriel{
+    font-size: 20px;
+    margin-left:500px;
+    color: white;
+    border-radius: 10px;
+  }
+  input[name='Couriel'] {
+    display: block;
+    margin-left:500px;
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+}
+.Question{
+    font-size: 20px;
+    margin-left:500px;
+    color: white;
+    border-radius: 10px;
+}
+input[name='Question'] {
+    display: block;
+    margin-left:500px;
+    width: 900px;
+    height: 90px;
+    
+}
+textarea{
+    font-size: 20px;
+    margin-left:500px;
+    width:900px;
+    resize: none;
+    border-radius: 10px;
+
+}
+button{
+    padding:15px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 14px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-left: -780px;
+  background-color: rgb(83, 82, 82);
+  color: white;
+  }
+  
+header h1 a {
+    color: white;
+    text-decoration: none;
+  }
+  a:active,
+  a:visited {
+    background-color:rgb(83, 82, 82);
+    padding: 22px 24px;
+  }
+  
+  .active {
+    background-color:rgb(83, 82, 82);
+    padding: 22px 24px;
+  }
+  .footer {
+    background-color: rgb(66, 66, 66); 
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+   
+  }
+  .footer p {
+      position: center;
+      bottom: 5px;
+      right: 10px;
+      color: white;
+    }
+    
